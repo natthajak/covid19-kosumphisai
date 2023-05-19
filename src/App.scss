@@ -1,0 +1,369 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap");
+
+html, body, #root, .App, .App > div {
+    height: 100vh;
+}
+
+body {
+    background-color: #F7F6F2;
+    font-family: "Athiti", sans-serif;
+}
+
+// Scrollbar
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.closemenu {
+    text-align: right;
+    padding: 0px 10px 0px 10px;
+}
+
+.disabled-link {
+    pointer-events: none;
+}
+
+#formLogo {
+    transition: width;
+    transition-duration: 0.25s;
+}
+
+#loginForm {
+    width: 25rem;
+    font-size: 1.2rem;
+}
+
+.card-form {
+    font-size: 1.2rem;
+}
+
+.form-label {
+    margin: 0;
+    padding: 0.5rem 0 0.5rem 0;
+    text-align: end;
+}
+
+.form-info {
+    padding: 0.5rem;
+}
+
+.row {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.form-control, .form-select {
+    height: 3rem;
+    font-size: 1.2rem;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.alert {
+    font-size: 1.2rem;
+}
+
+.dropdown-item {
+    font-size: 1.2rem;
+}
+
+.form-check-input {
+    margin-right: 0.5rem;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// Landing Page
+#landing-page-card {
+    width: 85%;
+}
+    
+#landing-page-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.landing-page {
+    background-color: #be4141;
+}
+
+// React Bootstrap Navbar ----------------------------------------------------------
+
+.nav-link {
+    padding: 0.8rem 0 0.8rem 0;
+}
+
+.nav-link:hover {
+    background-color: #3d526e !important;
+}
+
+.navbar {
+    padding: 0;
+    font-size: 1.2rem;
+    background-color: #4B6587 !important;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 0.5rem 0 0.5rem 0;
+    }
+}
+
+// Bootstrap ------------------------------------------------------------
+
+.page-link, .page-link:hover {
+    color: #212529;
+}
+
+.btn {
+    height: 3rem;
+    font-size: 1.2rem;
+    min-width: 10rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+// Primary
+.btn-primary {
+    background-color: #37AFF3 !important;
+    border-color: #37AFF3;
+}
+
+.btn-primary:hover {
+    background-color: #349edb !important;
+    border-color: #349edb;
+}
+
+.btn-primary:active {
+    background-color: #2c8fc9 !important;
+    border-color: #2c8fc9;
+}
+
+.btn-primary:visited {
+    background-color: #37AFF3 !important;
+    border-color: #37AFF3;
+}
+
+.btn-primary:focus {
+    background-color: #37AFF3 !important;
+    border-color: #37AFF3;
+}
+
+.btn-primary:disabled {
+    background-color: #37AFF3 !important;
+    border-color: #37AFF3;
+}
+
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    background-color: #2c8fc9 !important;
+    border-color: #2c8fc9;
+}
+
+// Success
+.btn-success {
+    background-color: #21CB79 !important;
+    border-color: #21CB79;
+}
+
+.btn-success:hover {
+    background-color: #1eaf69 !important;
+    border-color: #1eaf69;
+}
+
+.btn-success:active {
+    background-color: #199458 !important;
+    border-color: #199458;
+}
+
+.btn-success:visited {
+    background-color: #21CB79 !important;
+    border-color: #21CB79;
+}
+
+.btn-success:focus {
+    background-color: #199458 !important;
+    border-color: #199458;
+}
+
+.btn-success:disabled {
+    background-color: #21CB79 !important;
+    border-color: #21CB79;
+}
+
+// Danger
+.btn-danger {
+    background-color: #FA6E6E !important;
+    border-color: #FA6E6E;
+}
+
+.btn-danger:hover {
+    background-color: #cf5757 !important;
+    border-color: #cf5757;
+}
+
+.btn-danger:active {
+    background-color: #b84b4b !important;
+    border-color: #b84b4b;
+}
+
+.btn-danger:visited {
+    background-color: #FA6E6E !important;
+    border-color: #FA6E6E;
+}
+
+.btn-danger:focus {
+    background-color: #b84b4b !important;
+    border-color: #b84b4b;
+}
+
+// Warning
+.btn-warning {
+    background-color: #ffc107 !important;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e4ab00 !important;
+    border-color: #e4ab00;
+}
+
+.btn-warning:active {
+    background-color: #d19d00 !important;
+    border-color: #d19d00;
+}
+
+.btn-warning:visited {
+    background-color: #ffc107 !important;
+    border-color: #ffc107;
+}
+
+.btn-warning:focus {
+    background-color: #d19d00 !important;
+    border-color: #d19d00;
+}
+
+#returnBtn {
+    border-color: transparent;
+    min-width: 50px;
+}
+
+//Horizontal Rule
+.shortHr {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-width: 1px;
+}
+
+// Media Queries ---------------------------------------------
+
+@media (max-width: 1024px) {
+    #dashboard {
+        .card {
+            height: 8rem;
+        }
+
+        .card-header {
+            height: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-select {
+            height: 100%;
+        }
+    }
+
+    #loginForm {
+        width: 25rem;
+        font-size: 1.8rem;
+    }
+
+    .form-control {
+        font-size: 1.35rem;
+    }
+
+    .btn {
+        font-size: 1.3rem;
+        min-width: 12rem;
+    }
+
+    #landing-page-card {
+        width: 85%;
+    }
+    
+    #landing-page-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #notFoundPage {
+        h1, h2 {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (max-width: 568px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    #loginForm {
+        width: 18rem;
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 1.3rem;
+        margin: 0.3rem 0 0.3rem 0;
+    }
+
+    #landing-page-card {
+        width: 85%;
+    }
+
+    #landing-page-title {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-label {
+        text-align: start;
+    }
+
+    .form-info {
+        padding: 0;
+    }
+
+    #notFoundPage {
+        h1, h2 {
+            font-size: 1.5rem;
+        }
+    }
+}
